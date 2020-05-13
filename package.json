@@ -1,0 +1,22 @@
+{
+  "name": "test-mp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "NODE_ENV=test mochapack --webpack-config test/webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "chai": "^4.2.0",
+    "jsdom": "^16.2.2",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^7.1.2",
+    "mochapack": "^2.0.0",
+    "webpack": "^4.43.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
